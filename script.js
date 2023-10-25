@@ -3,28 +3,49 @@ window.onload = function() {
   };
   
 const songs=[
-{
-        name:"Shubh-Elevated",
-        link:"3.mp3",
-        image_src:"3.jpg"
-},
+
 {
     name:"Shubh-Cheques",
-    link:"2.mp3",
-    image_src:"2.jpg"
-},
-{
-    name:"Shub-One-Love",
-    link:"1.mp3",
-    image_src:"1.jpg"
+    link:"music/2.mp3",
+    image_src:"thumb-pic/2.webp"
 },
 
 {
     name:"Parmish Verma-Check it out",
-    link:"4.mp3",
-    image_src:"4.jpg"
+    link:"music/4.mp3",
+    image_src:"thumb-pic/4.webp"
 },
 
+{
+    name:"Softly-Karan Aujla",
+    link:"music/5.mp3",
+    image_src:"thumb-pic/5.webp"
+},
+{
+    name:"On Top-Karan Aujla",
+    link:"music/6.mp3",
+    image_src:"thumb-pic/6.webp"
+},
+{
+    name:"Calaboose-Sidhu Moose Wala",
+    link:"music/7.mp3",
+    image_src:"thumb-pic/7.webp"
+},
+{
+    name:"Signed To God",
+    link:"music/8.mp3",
+    image_src:"thumb-pic/8.webp"
+},
+{
+    name:"Afterhours- BIR",
+    link:"music/9.mp3",
+    image_src:"thumb-pic/9.webp"
+},
+{
+    name:"Shub-One-Love",
+    link:"music/1.mp3",
+    image_src:"thumb-pic/1.webp"
+}
 ];
 
 //index of array
