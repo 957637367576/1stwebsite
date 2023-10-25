@@ -1,0 +1,251 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+   
+}
+body
+{
+    background-color: black;
+}
+.position
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main
+{
+    
+    background-color: black ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    border-radius: 10px;
+    width: 31%;
+    height: 85vh;
+    margin-bottom: 1%;
+    margin-top: 0%;
+    box-shadow: 10px 10px 300px grey;
+}
+.main img
+{
+    /* border: 1px solid white; */
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 61%;
+    height: 35%;
+    object-fit: cover;
+    box-shadow: 2px 2px 100px grey;
+}
+/* .progress-bar
+{
+    height: 340px;
+    width: 45px;
+} */
+.progress-bar,.controller
+{
+    cursor: pointer;
+}
+.control-panel
+{
+    gap: 15px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 130%;
+    color: black;
+}
+.progress-bar
+{
+    -webkit-appearance: none;
+    width: 350px;
+    height:9px;
+    border-radius: 17px;
+    border: none;
+    background-color: white;
+}
+.main h2 
+{
+    margin-top: 40px;
+    font-size: 250%;
+    text-align: center;
+}
+
+.song-name
+{
+    font-size: 140%;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.main span
+{
+    color: darkslateblue;
+}
+.btn2
+{
+    color: black;
+}
+#buttons
+{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 40px;
+    margin-left: 80px;
+}
+#btn1
+{
+    border :solid 1.5px;
+    color :white;
+    height :45px;
+    width :170px;
+    font-size :18px;
+    border-radius : 50px;
+    cursor: pointer;
+}
+button
+{
+    color: black;
+    background-color: transparent;
+    border: none;
+   
+}
+
+
+/* resposiveness */
+
+@media screen and (max-width:1281px)
+{
+    .main
+{
+    
+    border-radius: 10px;
+    width: 33%;
+    height: 86vh;
+    margin-bottom: 1%;
+    box-shadow: 10px 10px 300px grey;
+}
+#buttons
+{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 30px;
+    margin-left: 70px;
+}
+#btn1
+{
+    border :solid 1.5px;
+    color :white;
+    height :44px;
+    width :150px;
+    font-size :18px;
+    border-radius : 50px;
+    cursor: pointer;
+}
+.progress-bar
+{
+    -webkit-appearance: none;
+    width: 320px;
+    height:7px;
+    border-radius: 17px;
+    border: none;
+    background-color: white;
+}
+.control-panel
+{
+    font-size: 120%;
+}
+
+}
+
+  @media screen and (max-width:991px) 
+{
+    .main
+    {
+        margin-top: 10%;
+        width: 70vw;
+        height: 67vh;
+        margin-bottom: 27%;
+
+    }
+    .main img 
+    {
+        
+        width: 55%;
+        height: 30%;
+    }
+   .song-name
+   {
+    margin-top: 15%;
+   }
+   .controller
+   {
+        font-size: 30px;
+   }
+   .progress-bar
+   {
+    height: 8px;
+    width: 450px;
+    cursor: pointer;
+   }
+   .control-panel
+   {
+    margin-top: 16%;
+    gap: 30px;
+    cursor: pointer;
+    font-size: 8%;
+   }
+} 
+
+@media screen and (max-width:470px)
+ {
+    .main
+    {
+        margin-top: 8%;
+        width: 90%;
+        height: 70vh;
+        margin-bottom: 10%;
+    }
+    .main img 
+    {
+        width: 68%;
+        height: 30%;
+    }
+   .song-name
+   {
+    margin-top: 15%;
+   }
+   .progress-bar,.controller
+{
+    cursor: pointer;
+}
+.progress-bar
+{
+    width: 300px;
+    height: 7px;
+}
+#buttons
+{
+    display: flex;
+}
+#btn1,#btn2
+{
+    height :45px;
+    width :170px;
+    font-size :18px;
+    margin-left: -40px;
+    margin-right: 50px;
+}
+.control-panel
+{
+    font-size:3%;
+
+}
+
+
+ }

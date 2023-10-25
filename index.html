@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music-Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="shortcut icon" href="favicon3.png" type="image/x-icon">
+</head>
+<body class="body">
+<div id="buttons">
+
+    <button id="btn1"><i class=" fa-regular fa-lightbulb fa-lg"></i> Light Mode</button>
+    <button id="btn2"><i class="btn2 fa-solid fa-lightbulb fa-lg"></i> Dark Mode</button>
+
+</div>
+    <div class="position">
+    <div class="main">
+        <h2>Music<span>-Player</span></h2>
+        <img src="" alt="img" class="thumb-image">
+        <div class="song-name"></div>
+        <audio class="songs">
+            <source src="" type="audio/mp3">
+        </audio>
+        <div class="control-panel">
+            <input type="range" value="0" class="progress-bar">
+            <div class="controller">
+            <i class="fa-solid fa-backward fa-xl" id="bw"></i>
+            <i class="fa-solid fa-circle-play fa-xl" id="play"></i>
+            <i class="fa-solid fa-forward fa-xl" id="fw"></i>
+        </div>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
