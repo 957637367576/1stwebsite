@@ -8,7 +8,9 @@
 }
 body
 {
-    background-color: black;
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
 }
 .position
 {
@@ -19,33 +21,26 @@ body
 .main
 {
     
-    background-color: black ;
+    backdrop-filter: blur(30px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2%;
+    margin-top: 3.5%;
     border-radius: 10px;
-    width: 31%;
+    width: 0%;
     height: 85vh;
-    margin-bottom: 1%;
-    margin-top: 0%;
-    box-shadow: 10px 10px 300px grey;
+    margin-bottom: 100px;
 }
 .main img
 {
     /* border: 1px solid white; */
     margin-top: 5%;
     border-radius: 10px;
-    width: 61%;
+    width: 55%;
     height: 35%;
     object-fit: cover;
-    box-shadow: 2px 2px 100px grey;
 }
-/* .progress-bar
-{
-    height: 340px;
-    width: 45px;
-} */
+
 .progress-bar,.controller
 {
     cursor: pointer;
@@ -85,35 +80,19 @@ body
 }
 .main span
 {
-    color: darkslateblue;
+    color: white;
 }
 .btn2
 {
     color: black;
 }
-#buttons
+
+
+.controller
 {
     display: flex;
-    flex-direction: row; 
-    margin-top: 40px;
-    margin-left: 80px;
-}
-#btn1
-{
-    border :solid 1.5px;
-    color :white;
-    height :45px;
-    width :170px;
-    font-size :18px;
-    border-radius : 50px;
-    cursor: pointer;
-}
-button
-{
-    color: black;
-    background-color: transparent;
-    border: none;
-   
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -123,30 +102,18 @@ button
 {
     .main
 {
-    
+    backdrop-filter: blur(200px);
     border-radius: 10px;
-    width: 33%;
+    width: 31%;
     height: 86vh;
     margin-bottom: 1%;
-    box-shadow: 10px 10px 300px grey;
+    /* border-top: 0.5px solid rgba(128, 0, 128, 0.135);
+    border-bottom: 0.5px solid purple;
+    border-right: 0.5px solid purple; */
+    /* border:0.5px solid rgba(128, 0, 128, 0.135); */
 }
-#buttons
-{
-    display: flex;
-    flex-direction: row; 
-    margin-top: 30px;
-    margin-left: 70px;
-}
-#btn1
-{
-    border :solid 1.5px;
-    color :white;
-    height :44px;
-    width :150px;
-    font-size :18px;
-    border-radius : 50px;
-    cursor: pointer;
-}
+
+
 .progress-bar
 {
     -webkit-appearance: none;
@@ -154,7 +121,6 @@ button
     height:7px;
     border-radius: 17px;
     border: none;
-    background-color: white;
 }
 .control-panel
 {
@@ -167,17 +133,19 @@ button
 {
     .main
     {
+        background-color: #fb00ff72;
         margin-top: 10%;
         width: 70vw;
         height: 67vh;
         margin-bottom: 27%;
-
+        
     }
     .main img 
     {
         
         width: 55%;
         height: 30%;
+        
     }
    .song-name
    {
@@ -206,15 +174,18 @@ button
  {
     .main
     {
-        margin-top: 8%;
-        width: 90%;
-        height: 70vh;
-        margin-bottom: 10%;
+        background-color: #fb00ff21;
+        margin-top: 23%;
+        width: 89%;
+        height: 67vh;
+        margin-bottom: 30%;
+        border: none;
     }
     .main img 
     {
         width: 68%;
         height: 30%;
+        border: none;
     }
    .song-name
    {
@@ -229,18 +200,7 @@ button
     width: 300px;
     height: 7px;
 }
-#buttons
-{
-    display: flex;
-}
-#btn1,#btn2
-{
-    height :45px;
-    width :170px;
-    font-size :18px;
-    margin-left: -40px;
-    margin-right: 50px;
-}
+
 .control-panel
 {
     font-size:3%;
